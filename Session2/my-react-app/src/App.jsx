@@ -1,5 +1,6 @@
 import "./App.css";
 import MenuItem from "./components/MenuItem";
+import NameGreeting from "./components/NameGreeting";
 import ProductCard from "./components/ProductCard";
 import ProductList from "./components/ProductList";
 
@@ -70,6 +71,7 @@ function App() {
         onAddToCart={handleAddToCart}
         onViewDetails={handleViewDetails}
       /> */}
+      <NameGreeting />
       <ProductList
         onAddToCart={handleAddToCart}
         onViewDetails={handleViewDetails}
